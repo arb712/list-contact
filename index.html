@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+
+<body>
+    <h4 class="title">Form Contact</h4>
+    <form action="" class="Form">
+        <div class="form">
+        <div class="container d-flex justify-content-center">
+            <div class="form-group col-sm-4">
+                <label for="name">Nama</label>
+                <input type="text" class="form-control name" name="name">
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="form-group col-md-6">
+                <label for="alamat">Alamat</label>
+                <input type="text" class="form-control addresss" name="address">
+            </div>
+            <div class="form-group col-md-4">
+                <label for="Emai;">Email</label>
+                <input type="email" class="form-control aEmail" name="email">
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <div class="form-group col-md-5">
+                <label for="nohp">No Telephone</label>
+                <input type="text" class="form-control noHp" name="noHandphone">
+            </div>
+            <div class="form-group col-md-5">
+                <label for="comp">Company</label>
+                <input type="text" class="form-control company" name="company">
+            </div>
+        </div>
+        <div class="container d-flex sub">
+            <button type="button" class="btn btn-dark" id="simpanData">Submit</button>
+        </div>
+    </div>
+    </form>
+    <div class="container d-flex justify-content-center conCont">
+        <div id="contacts" class="contact">
+            <ul class="cContact">
+                <ol>
+    
+                </ol>
+            </ul>
+
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+body{
+    background-color: #33ff33;
+}
+.title{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: whitesmoke;
+    /* background:linear-gradient(90deg,#006699, #b30000);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break:clone; */
+}
+.Form{
+    margin-top: -10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: darkcyan;
+    color: white;
+}
+.form{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.sub{
+    padding-left: 122px;
+}
+.cContact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+li{
+    margin-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border:1px whitesmoke solid;
+    border-radius: 5px 15px 5px 15px;
+}
+ol>li:nth-child(odd){
+    background:#b30000;
+}
+ol>li:nth-child(even){
+    background:#006699;
+}
+.conCont{
+    color: white;
+    background-color: #33ff33;
+}

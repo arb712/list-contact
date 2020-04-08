@@ -1,0 +1,36 @@
+{
+  "dataContacts": [
+    {
+      "name": "Ariq Bimantoro",
+      "address": "Mayang Mangurai",
+      "email": "ariqbimantoro@gmail.com",
+      "noHandphone": "082185647628",
+      "company": "Coffin",
+      "id": 2
+    },
+    {
+      "name": "Bo She Buy",
+      "address": "Unknown",
+      "email": "Unknown",
+      "noHandphone": "Unknown",
+      "company": "+69 666944",
+      "id": 3
+    },
+    {
+      "name": "s1mple",
+      "address": "Ukraina",
+      "email": "s1mple@csgo.com",
+      "noHandphone": "082185647628",
+      "company": "NAVI",
+      "id": 4
+    },
+    {
+      "name": "Bees",
+      "address": "Nagoya",
+      "email": "aaaa@gmail.com",
+      "noHandphone": "0821856324234",
+      "company": "FLick",
+      "id": 5
+    }
+  ]
+}
