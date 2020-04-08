@@ -1,5 +1,5 @@
 body{
-    background-color: #33ff33;
+    background-color:rgb(77, 77, 255,0.8);
 }
 .title{
     text-align: center;
@@ -47,5 +47,5 @@ ol>li:nth-child(even){
 }
 .conCont{
     color: white;
-    background-color: #33ff33;
+    background-color: transparent;
 }
