@@ -31,8 +31,8 @@ axios.get('http://localhost:3002/dataContacts')
                 Company : ${company}
                 <br>
                 <br>
-                <button onclick="ubah(${id})"class="btn btn-dark"><i class="fa fa-pencil" aria-hidden="true"></i> <span></span> Klik untuk edit</button>
-                <button onclick="Del(${id})"class="btn btn-dark"><i class="fa fa-trash" aria-hidden="true"></i> <span></span> Klik untuk hapus</button>
+                <button onclick="ubah(${id})"class="btn btn-dark"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+                <button onclick="Del(${id})"class="btn btn-dark"><i class="fa fa-trash" aria-hidden="true"></i></button>
                 </li>`;
             listHTML.innerHTML += isiHTML;
         });

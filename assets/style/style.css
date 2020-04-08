@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(77, 77, 255,0.8);
+    background-color:white;
 }
 .title{
     text-align: center;
@@ -36,7 +36,7 @@ li{
     padding-bottom: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    border:1px whitesmoke solid;
+    border:1px black solid;
     border-radius: 5px 15px 5px 15px;
 }
 ol>li:nth-child(odd){
