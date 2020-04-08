@@ -31,6 +31,14 @@
       "noHandphone": "0821856324234",
       "company": "FLick",
       "id": 5
+    },
+    {
+      "name": "Ariq",
+      "address": "Batu Aji",
+      "email": "Unknown",
+      "noHandphone": "Unknown",
+      "company": "UIB",
+      "id": 6
     }
   ]
 }

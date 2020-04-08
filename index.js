@@ -15,19 +15,24 @@ axios.get('http://localhost:3002/dataContacts')
                 company
             } = item;
             const isiHTML = `<li>
+                <i class="fa fa-user" aria-hidden="true"></i>
                 Nama : ${name}
                 <br>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
                 Alamat : ${address}
                 <br>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
                 Email : ${email} 
                 <br>
+                <i class="fa fa-phone" aria-hidden="true"></i>
                 No HP : ${noHandphone}
                 <br>
+                <i class="fa fa-building" aria-hidden="true"></i>
                 Company : ${company}
                 <br>
                 <br>
-                <button onclick="ubah(${id})"class="btn btn-dark">Klik untuk edit</button>
-                <button onclick="Del(${id})"class="btn btn-dark">Klik untuk hapus</button>
+                <button onclick="ubah(${id})"class="btn btn-dark"><i class="fa fa-pencil" aria-hidden="true"></i> <span></span> Klik untuk edit</button>
+                <button onclick="Del(${id})"class="btn btn-dark"><i class="fa fa-trash" aria-hidden="true"></i> <span></span> Klik untuk hapus</button>
                 </li>`;
             listHTML.innerHTML += isiHTML;
         });
